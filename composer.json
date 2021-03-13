@@ -1,0 +1,29 @@
+{
+    "name": "wtolk/adfm-news",
+    "description": "news component for laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wtolk.ru",
+            "email": "web@wtolk.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Wtolk\\AdfmNews\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wtolk\\AdfmNews\\Providers\\AdfmNewsServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "wtolk/adfm": "*",
+        "wtolk/crud": "*"
+    }
+}
